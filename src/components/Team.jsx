@@ -22,7 +22,7 @@ const TEAM_MEMBERS = [
   }
 ];
 
-export default function HackerDesktop() {
+export default function Team() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
